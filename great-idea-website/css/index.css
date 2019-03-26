@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+
+.cover .cover-content {
+	margin-bottom: -9px;
+	display: inline-block;
+}
+
+
+header nav a {
+	margin-right: 35px;
+    margin-left: 27px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+img .logo {
+	margin-left: 110px;
+}
+
+.cover .cover-content {
+	vertical-align: top;
+	font-size: 40px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 50px;
+}
+
+.cover img {
+	display: inline-block;
+	margin-top: 69px;
+}
+
+.title {
+	margin-bottom: -6px;
+}
+
+button {
+	background: white;
+	/* vertical-align: top; */
+	margin-top: 1px;
+	padding: 3px 24px;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	background: white;
+}
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 48px;
+	padding-top: 33px;
+	margin-bottom: -50px;
+  }
+
+
+.main-content .top-content .text-content {
+	width: 44%; 
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 25px;
+}
+
+
+
+  .middle-img {
+	margin-top: 69px;
+  }
+
+  .bottom-content .bottom .text-content {
+	display: inline-block;
+	width: 29%; 
+	vertical-align: top;
+	margin: 15px 15px;
+  }
+
+.bottom-content {
+	margin-top: 10px;
+}
+
+  .contact {
+	  margin-top: 0;
+	  padding: 39px 10px 0;
+  }
+
+  .contact h4 {
+	  margin-top: 0;
+  }
+
+  .contact p {
+	margin: 20px 0;
+  }
+
+  footer {
+	  margin: 80px 70px;
+	 
+  }
+
+  .copyright {
+	margin-left: 390px;
+    margin-bottom: 50px;
+  }
